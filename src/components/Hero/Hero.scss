@@ -1,0 +1,88 @@
+.hero {
+  padding: var(--padding);
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+  .hero-bg {
+    width: 50%;
+    height: 100%;
+    background-image: url("/public/img/hero-lines.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    h1 {
+      font-size: 56px;
+    }
+
+    h2 {
+      span {
+        color: hsl(var(--accent-color));
+      }
+    }
+
+    p {
+      color: #aaa;
+    }
+
+    h3 {
+      color: #ccc;
+    }
+    button {
+      padding: 10px 20px;
+      border: none;
+      background-color: hsl(var(--accent-color));
+      cursor: pointer;
+    }
+  }
+
+  .left-img,
+  .right-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 50%;
+    background-image: url("/public/img/hero-spinner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: rotate 40s linear infinite;
+
+    .icon {
+      width: 40px;
+      height: 40px;
+      fill: #ccc;
+    }
+  }
+
+  .down {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    cursor: pointer;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
