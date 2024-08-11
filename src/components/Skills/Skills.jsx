@@ -76,7 +76,7 @@ const tech = [
     id: 10,
     name: "GitHub",
     img: (
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+      <img src="https://img.icons8.com/?size=100&id=62856&format=png&color=000000" />
     ),
   },
   {

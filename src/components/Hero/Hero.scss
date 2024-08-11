@@ -5,8 +5,9 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
   height: 100vh;
+
   overflow-x: hidden;
   position: relative;
   .hero-bg {
@@ -85,5 +86,21 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 680px) {
+  .hero {
+    flex-direction: column;
+    // height: 180vh;
+    height: fit-content;
+    .hero-bg {
+      margin-top: 100px;
+      width: 100%;
+    }
+    .right-img,
+    .left-img {
+      display: none;
+    }
   }
 }

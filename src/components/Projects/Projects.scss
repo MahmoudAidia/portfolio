@@ -1,0 +1,29 @@
+.projects {
+  background-color: #fff;
+  padding: 40px var(--padding);
+  .projects-heading {
+    text-align: center;
+    // margin-bottom: 50px;
+    h2 {
+      margin: 0 auto;
+      width: fit-content;
+      font-size: 40px;
+      padding-bottom: 20px;
+      color: hsl(var(--accent-color));
+    }
+
+    p {
+      color: #222;
+    }
+  }
+
+  .projects-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    // align-items: center;
+    // column-gap: 50px;
+  }
+}

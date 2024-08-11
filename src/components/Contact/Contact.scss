@@ -1,0 +1,66 @@
+.contact {
+  padding: 50px var(--padding);
+
+  .contact-heading {
+    width: 300px;
+    margin: 150px auto;
+    margin-bottom: 50px;
+    text-align: center;
+    p {
+      color: #fff;
+      margin-bottom: 30px;
+      font-size: 20px;
+    }
+    h2 {
+      color: hsl(var(--accent-color));
+      font-size: 40px;
+      position: relative;
+      padding-bottom: 15px;
+
+      &::after {
+        position: absolute;
+        content: "";
+        height: 5px;
+        width: 0%;
+        background-color: hsl(var(--accent-color));
+        bottom: 0;
+        left: 0;
+        transition: all 0.4s;
+      }
+
+      &:hover::after {
+        width: 100%;
+      }
+      &:hover {
+        color: #fff;
+        transition: all 0.4s;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .social {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    .item {
+      color: #fff;
+      border-radius: 5px;
+      border: 1px solid #fff;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      transition: all 0.4s;
+      &:hover {
+        border: 1px solid hsl(var(--accent-color));
+      }
+      span {
+      }
+    }
+  }
+}

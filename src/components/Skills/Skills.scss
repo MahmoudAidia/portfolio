@@ -1,7 +1,7 @@
 .tech-container {
   // background-color: #e6e6e6;
   // background-color: #cccccc;
-  padding: 20px 200px;
+  padding: 20px 200px 50px 200px;
   overflow: hidden;
   display: flex;
   color: hsl(var(--accent-color));
@@ -10,7 +10,7 @@
     white-space: nowrap;
     display: flex;
     gap: 50px;
-    animation: 15s slide infinite linear;
+    animation: 25s slide infinite linear;
     .tech-items {
       width: 150px;
       display: flex;

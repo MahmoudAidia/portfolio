@@ -14,7 +14,7 @@ function About() {
         <div className="text-box">
           <div className="header-container">
             <h2 className="header">
-              <sapn>About me</sapn>
+              <span>About me</span>
               <FormatQuoteIcon />
             </h2>
           </div>
@@ -32,11 +32,34 @@ function About() {
             <div className="education-container">
               <h2>Education</h2>
               <p>Bachelor of Computer Science and Information Technology</p>
-
               <p>
                 GPA:
                 <span> 3.38</span>
               </p>
+            </div>
+          </div>
+
+          <div className="statistics">
+            <div className="stats-item">
+              <div className="nums">
+                <span>2</span>
+                <span>+</span>
+              </div>
+              <p>Experiences</p>
+            </div>
+            <div className="stats-item">
+              <div className="nums">
+                <span>5</span>
+                <span>+</span>
+              </div>
+              <p>Projects</p>
+            </div>
+            <div className="stats-item">
+              <div className="nums">
+                <span>250</span>
+                <span>+</span>
+              </div>
+              <p>Leetcode</p>
             </div>
           </div>
         </div>

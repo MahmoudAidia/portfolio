@@ -1,0 +1,53 @@
+.card {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+
+  color: #222;
+  // padding: 10px;
+  // background-color: #eee;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  .img {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    // object-fit: cover;
+
+    margin-bottom: 20px;
+  }
+
+  .text {
+    h4 {
+      color: hsl(var(--accent-color));
+      padding-bottom: 10px;
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    div {
+      .skills {
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        // overflow-x: scroll;
+        align-items: center;
+        gap: 10px;
+        span {
+          padding: 10px 15px;
+          border: 0.5px solid hsl(var(--accent-color));
+          border-radius: 10px;
+          &:hover {
+            background-color: hsl(var(--accent-color));
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
