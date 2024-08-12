@@ -5,7 +5,7 @@ import "./About.scss";
 
 function About() {
   return (
-    <section className="about">
+    <section className="about" id="about-sec">
       <div className="heading">
         <h2>Simplicity is the soul of efficiency.</h2>
         <Line />
@@ -42,7 +42,7 @@ function About() {
           <div className="statistics">
             <div className="stats-item">
               <div className="nums">
-                <span>2</span>
+                <span>1.5</span>
                 <span>+</span>
               </div>
               <p>Experiences</p>

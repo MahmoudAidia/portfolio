@@ -9,20 +9,24 @@ function Header() {
   return (
     <header>
       <div className="header">
-        <div className="logo">
+        <a href="#hero-sec" className="logo">
           <span>Aidia</span>
           <span>.Dev</span>
-        </div>
+        </a>
 
         <nav>
-          <span>About</span>
-          <span>Projects</span>
-          <span>Blog</span>
-          <span>Contacts</span>
+          <a href="#about-sec">About</a>
+          <a href="#projects-sec">Projects</a>
+          <a href="#contacts-sec">Contacts</a>
         </nav>
 
         <div className="iconContainer">
-          <button>Resume</button>
+          <a
+            href="/src/file/Mahmoud-Mostafa-Aidia.pdf"
+            download="Mahmoud-Mostafa-Aidia.pdf"
+          >
+            Resume
+          </a>
           <div className="icons">
             {mode === 2 ? (
               <LightModeIcon onClick={() => setMode(1)} />

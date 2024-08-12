@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --accent-color: 157, 87%, 41%;
   --base-background: 193, 20%, 9%;
@@ -33,7 +37,8 @@
   --radius: 0.5rem;
 
   /* Sections padding */
-  --padding: 80px;
+  /* --padding: 80px; */
+  --padding: 50px;
 }
 /* 
 .light {

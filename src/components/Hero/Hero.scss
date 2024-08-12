@@ -7,6 +7,7 @@
   align-items: center;
   // flex-wrap: wrap;
   height: 100vh;
+  background: hsl(var(--base-background));
 
   overflow-x: hidden;
   position: relative;
@@ -40,7 +41,9 @@
     h3 {
       color: #ccc;
     }
-    button {
+    a {
+      text-decoration: none;
+      color: #fff;
       padding: 10px 20px;
       border: none;
       background-color: hsl(var(--accent-color));
@@ -69,6 +72,8 @@
   }
 
   .down {
+    text-decoration: none;
+    color: #fff;
     position: absolute;
     left: 50%;
     bottom: -0px;

@@ -1,14 +1,27 @@
 import "./Card.scss";
+
+import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
+
 function Card({ item }) {
-  console.log(item);
-  const { title, skills, desc, img } = item;
-  // console.log(skills);
-  return (
+  const { title, skills, desc, img, github, demo } = item;
+c  return (
     <div className="card">
       <div className="img" style={{ backgroundImage: `url(${img})` }}></div>
       <div className="text">
         <h4>{title}</h4>
         <p>{desc}</p>
+        <div className="links">
+          <a href={`${github}`} target="_blank">
+            <span>GitHub</span>
+            <ArrowOutwardIcon />
+          </a>
+          {demo && (
+            <a href={`${demo}`} target="_blank">
+              <span>Demo</span>
+              <ArrowOutwardIcon />
+            </a>
+          )}
+        </div>
         <div>
           <div className="skills">
             {skills.map((skill, i) => (

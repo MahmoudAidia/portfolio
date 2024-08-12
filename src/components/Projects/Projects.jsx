@@ -16,6 +16,8 @@ function Projects() {
         "Framer Motion",
       ],
       img: "/public/img/The-Wild-Oasis-Co-.png",
+      demo: "https://wild-oasis-react-app-three.vercel.app/login",
+      github: "https://github.com/MahmoudAidia/wild-oasis-react-app",
     },
     {
       title: "E-commerce",
@@ -29,8 +31,9 @@ function Projects() {
         "Redux-Toolkit",
         "Strapi",
       ],
-
+      github: "https://github.com/MahmoudAidia/E-commerce",
       img: "/public/img/e-commerce.png",
+      demo: null,
     },
     {
       title: "Pizza orders",
@@ -43,12 +46,13 @@ function Projects() {
         "Redux",
         "Redux-Toolkit",
       ],
-
       img: "/public/img/pizza.png",
+      github: "https://github.com/MahmoudAidia/fast-react-pizza",
+      demo: "https://65be2dc92332c085e304b867--warm-ganache-1a5df0.netlify.app/",
     },
   ];
   return (
-    <section className="projects">
+    <section className="projects" id="projects-sec">
       <div className="projects-heading">
         <h2>Featured Projects</h2>
         <p>

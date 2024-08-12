@@ -6,7 +6,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import "./Contact.scss";
 function Contact() {
   return (
-    <section className="contact">
+    <section className="contact" id="contacts-sec">
       <div className="contact-heading">
         <p>Want to collaborate?</p>
         <h2>Contact me!</h2>
@@ -39,7 +39,18 @@ function Contact() {
         </a>
       </div>
 
-      <div></div>
+      <div className="contact-text">
+        <h5>
+          <span>Mahmoud Aidia</span>
+          <span>Developer, Problem Solver & Software Engineer</span>
+        </h5>
+
+        <p>
+          I'm always excited to connect with like-minded professionals and
+          potential collaborators. Whether you have a project in mind, need
+          assistance, or just want to say hello, feel free to reach out!
+        </p>
+      </div>
     </section>
   );
 }

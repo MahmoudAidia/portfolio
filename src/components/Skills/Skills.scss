@@ -1,25 +1,29 @@
-.tech-container {
-  // background-color: #e6e6e6;
-  // background-color: #cccccc;
-  padding: 20px 200px 50px 200px;
+.tech {
+  padding: 0px var(--padding);
   overflow: hidden;
-  display: flex;
-  color: hsl(var(--accent-color));
-  font-weight: 700;
-  .technologies {
-    white-space: nowrap;
+  .tech-container {
+    // background-color: #e6e6e6;
+    // background-color: #cccccc;
+    padding: 50px 0 50px 0px;
+    overflow: hidden;
     display: flex;
-    gap: 50px;
-    animation: 25s slide infinite linear;
-    .tech-items {
-      width: 150px;
+    color: hsl(var(--accent-color));
+    font-weight: 700;
+    .technologies {
+      white-space: nowrap;
       display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      img {
-        width: 40px;
-        height: 40px;
+      gap: 50px;
+      animation: 25s slide infinite linear;
+      .tech-items {
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        img {
+          width: 40px;
+          height: 40px;
+        }
       }
     }
   }

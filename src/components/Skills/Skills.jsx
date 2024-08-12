@@ -90,25 +90,27 @@ const tech = [
 
 function Skills() {
   return (
-    <div className="tech-container">
-      <div className="technologies">
-        {tech.map((item) => (
-          <div className="tech-items" key={item.id}>
-            <span>{item.name}</span>
-            {item.img}
-          </div>
-        ))}
-      </div>
+    <section className="tech">
+      <div className="tech-container">
+        <div className="technologies">
+          {tech.map((item) => (
+            <div className="tech-items" key={item.id}>
+              <span>{item.name}</span>
+              {item.img}
+            </div>
+          ))}
+        </div>
 
-      <div className="technologies">
-        {tech.map((item) => (
-          <div className="tech-items" key={item.id}>
-            <span>{item.name}</span>
-            {item.img}
-          </div>
-        ))}
+        <div className="technologies">
+          {tech.map((item) => (
+            <div className="tech-items" key={item.id}>
+              <span>{item.name}</span>
+              {item.img}
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
 

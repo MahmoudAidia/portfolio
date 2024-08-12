@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import "./Hero.scss";
 function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" id="hero-sec">
       <div className="left-img">
         <CodeOffIcon className="icon" />
       </div>
@@ -22,14 +22,15 @@ function Hero() {
           creating visually appealing and user-friendly web interfaces
         </p>
         <h3>Where creativity meets functionality.</h3>
-        <button>Contact Me &rarr;</button>
+        <a href="#contacts-sec">Contact Me &rarr;</a>
       </div>
 
       <div className="right-img">
         <BugReportIcon className="icon" />
       </div>
 
-      <motion.div
+      <motion.a
+        href="#about-sec"
         className="down"
         animate={{ y: [-3, -30, -3] }}
         transition={{
@@ -40,7 +41,7 @@ function Hero() {
       >
         <MouseIcon />
         <ArrowDownwardIcon />
-      </motion.div>
+      </motion.a>
     </section>
   );
 }
