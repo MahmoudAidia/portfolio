@@ -4,7 +4,7 @@ import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 
 function Card({ item }) {
   const { title, skills, desc, img, github, demo } = item;
-c  return (
+  return (
     <div className="card">
       <div className="img" style={{ backgroundImage: `url(${img})` }}></div>
       <div className="text">
