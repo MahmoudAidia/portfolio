@@ -27,13 +27,15 @@ function Header() {
           >
             Resume
           </a>
-          <div className="icons">
+          {/*
+           <div className="icons">
             {mode === 2 ? (
               <LightModeIcon onClick={() => setMode(1)} />
             ) : (
               <ModeNightIcon onClick={() => setMode(2)} />
             )}
           </div>
+          */}
           <MenuIcon className="phoneMenu" />
         </div>
       </div>
