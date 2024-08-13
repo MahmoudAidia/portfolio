@@ -3,13 +3,17 @@ import LightModeIcon from "@mui/icons-material/LightMode";
 import MenuIcon from "@mui/icons-material/Menu";
 
 import "./Header.scss";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import MobileNav from "../MobileNav/MobileNav";
 function Header() {
   // const [mode, setMode] = useState(2);
   const [openNav, setOpenNav] = useState(false);
-  console.log(openNav);
 
+  if (openNav) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflowY = "scroll";
+  }
   return (
     <header>
       <div className="header">

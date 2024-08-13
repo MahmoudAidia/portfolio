@@ -7,6 +7,7 @@ function MobileNav({ setOpenNav }) {
     { title: "Projects", secId: "projects-sec" },
     { title: "Contacts", secId: "contacts-sec" },
   ];
+
   return (
     <Modal setOpen={setOpenNav}>
       <nav className="mobileNav">
