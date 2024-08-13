@@ -15,7 +15,7 @@ function Projects() {
         "React hook forms",
         "Framer Motion",
       ],
-      img: "./public/img/The-Wild-Oasis-Co-.png",
+      img: "./public/img/wild-oasis.png",
       demo: "https://wild-oasis-react-app-three.vercel.app/login",
       github: "https://github.com/MahmoudAidia/wild-oasis-react-app",
     },
