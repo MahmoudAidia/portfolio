@@ -6,7 +6,9 @@ function Card({ item }) {
   const { title, skills, desc, img, github, demo } = item;
   return (
     <div className="card">
-      <div className="img" style={{ backgroundImage: `url(${img})` }}></div>
+      <div className="img">
+        <img src={img} />
+      </div>
       <div className="text">
         <h4>{title}</h4>
         <p>{desc}</p>

@@ -1,6 +1,8 @@
 import Line from "../../UI/Line";
 
+import personal from "/public/img/me-3.png";
 import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
+
 import "./About.scss";
 
 function About() {
@@ -65,7 +67,7 @@ function About() {
         </div>
         <div className="img">
           <div>
-            <img src="./public/img/me-3.jpg" alt="My Image" />
+            <img src={personal} alt="My Image" />
           </div>
         </div>
       </div>

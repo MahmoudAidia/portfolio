@@ -1,5 +1,8 @@
 import Card from "./Card";
 import "./Projects.scss";
+import wildOasis from "/public/img/wild-oasis.png";
+import pizza from "/public/img/pizza.png";
+import ecommerce from "/public/img/e-commerce.png";
 
 function Projects() {
   const projectsList = [
@@ -15,7 +18,7 @@ function Projects() {
         "React hook forms",
         "Framer Motion",
       ],
-      img: "./public/img/wild-oasis.png",
+      img: wildOasis,
       demo: "https://wild-oasis-react-app-three.vercel.app/login",
       github: "https://github.com/MahmoudAidia/wild-oasis-react-app",
     },
@@ -32,7 +35,7 @@ function Projects() {
         "Strapi",
       ],
       github: "https://github.com/MahmoudAidia/E-commerce",
-      img: "./public/img/e-commerce.png",
+      img: ecommerce,
       demo: null,
     },
     {
@@ -46,7 +49,7 @@ function Projects() {
         "Redux",
         "Redux-Toolkit",
       ],
-      img: "./public/img/pizza.png",
+      img: pizza,
       github: "https://github.com/MahmoudAidia/fast-react-pizza",
       demo: "https://65be2dc92332c085e304b867--warm-ganache-1a5df0.netlify.app/",
     },
