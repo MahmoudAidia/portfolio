@@ -1,5 +1,6 @@
 .mobileNav {
-  width: 300px;
+  min-width: 250px;
+  width: 250px;
   // height: 200px;
   color: hsl(var(--navbar-text-color));
   display: flex;
