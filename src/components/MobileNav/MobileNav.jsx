@@ -3,8 +3,8 @@ import "./MobileNav.scss";
 import { Close } from "@mui/icons-material";
 function MobileNav({ setOpenNav }) {
   const elements = [
-    { title: "Projects", secId: "projects-sec" },
     { title: "About", secId: "about-sec" },
+    { title: "Projects", secId: "projects-sec" },
     { title: "Contacts", secId: "contacts-sec" },
   ];
   return (
