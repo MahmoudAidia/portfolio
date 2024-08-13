@@ -89,7 +89,7 @@ header {
   }
 }
 
-@media (max-width: 930px) {
+@media (max-width: 700px) {
   header {
     .header {
       nav {
@@ -98,6 +98,7 @@ header {
 
       .phoneMenu {
         display: block;
+        cursor: pointer;
       }
     }
   }

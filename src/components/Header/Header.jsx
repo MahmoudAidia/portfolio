@@ -4,8 +4,12 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 import "./Header.scss";
 import { useState } from "react";
+import MobileNav from "../MobileNav/MobileNav";
 function Header() {
-  const [mode, setMode] = useState(2);
+  // const [mode, setMode] = useState(2);
+  const [openNav, setOpenNav] = useState(false);
+  console.log(openNav);
+
   return (
     <header>
       <div className="header">
@@ -36,9 +40,14 @@ function Header() {
             )}
           </div>
           */}
-          <MenuIcon className="phoneMenu" />
+          <MenuIcon
+            className="phoneMenu"
+            onClick={() => setOpenNav((prev) => !prev)}
+          />
         </div>
       </div>
+
+      {openNav && <MobileNav setOpenNav={setOpenNav} />}
     </header>
   );
 }
