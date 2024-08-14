@@ -1,6 +1,7 @@
 import Modal from "/src/UI/Modal";
 import "./MobileNav.scss";
 import { Close } from "@mui/icons-material";
+import { motion } from "framer-motion";
 function MobileNav({ setOpenNav }) {
   const elements = [
     { title: "About", secId: "about-sec" },
@@ -16,11 +17,17 @@ function MobileNav({ setOpenNav }) {
         </div>
         <ul>
           {elements.map((item, id) => (
-            <li key={id} onClick={() => setOpenNav((prev) => !prev)}>
+            <motion.li
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: id / 10 + 1 }}
+              key={id}
+              onClick={() => setOpenNav((prev) => !prev)}
+            >
               <a href={`#${item.secId}`} className="nav-item">
                 {item.title}
               </a>
-            </li>
+            </motion.li>
           ))}
         </ul>
       </nav>

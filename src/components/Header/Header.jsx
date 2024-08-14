@@ -66,7 +66,7 @@ function Header() {
         <div className="iconContainer">
           <motion.a
             initial={{ x: 150 }}
-            animate={{ x: 0 }}
+            animate={{ x: [150, -10, 0] }}
             transition={{ delay: 1 }}
             href="/src/file/Mahmoud-Mostafa-Aidia.pdf"
             download="Mahmoud-Mostafa-Aidia.pdf"
@@ -82,10 +82,17 @@ function Header() {
             )}
           </div>
           */}
-          <MenuIcon
-            className="phoneMenu"
-            onClick={() => setOpenNav((prev) => !prev)}
-          />
+
+          <motion.div
+            initial={{ x: 150 }}
+            animate={{ x: [150, -10, 0] }}
+            transition={{ delay: 1.3 }}
+          >
+            <MenuIcon
+              className="phoneMenu"
+              onClick={() => setOpenNav((prev) => !prev)}
+            />
+          </motion.div>
         </div>
       </div>
 

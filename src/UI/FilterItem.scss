@@ -1,0 +1,10 @@
+.filterItem {
+  border: 2px solid hsl(var(--accent-color));
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  &:hover {
+    background-color: hsl(var(--accent-color));
+    color: #fff;
+  }
+}

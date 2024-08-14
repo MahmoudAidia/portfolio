@@ -18,13 +18,26 @@
     }
   }
 
+  .filterContainer {
+    margin-top: 40px;
+    text-align: center;
+    color: #222;
+    h3 {
+      margin-bottom: 20px;
+    }
+    .filter {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+  }
+
   .projects-flex {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
-    // align-items: center;
-    // column-gap: 50px;
   }
 }
