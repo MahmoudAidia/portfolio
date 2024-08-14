@@ -4,6 +4,7 @@ import personal from "/public/img/me-3.png";
 import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
 import { motion } from "framer-motion";
 import "./About.scss";
+import { projectsList } from "../../data/data";
 
 function About() {
   return (
@@ -51,7 +52,7 @@ function About() {
             </div>
             <div className="stats-item">
               <div className="nums">
-                <span>5</span>
+                <span>{projectsList.length}</span>
                 <span>+</span>
               </div>
               <p>Projects</p>
