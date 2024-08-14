@@ -5,6 +5,10 @@ import omnifood from "/public/img/omni.png";
 import realstate from "/public/img/realstate.png";
 import appei from "/public/img/appei.png";
 import fesco from "/public/img/dessert.png";
+import dice from "/public/img/Dice.png";
+import guess from "/public/img/guess.png";
+import player from "/public/img/player.png";
+import currency from "/public/img/currency.png";
 
 export const projectsList = [
   {
@@ -89,5 +93,37 @@ export const projectsList = [
     img: appei,
     github: "https://github.com/MahmoudAidia/Appei_MahmoudAidia",
     demo: "https://appeimahmoudaidia.netlify.app/",
+  },
+  {
+    title: "Roll Dice Game",
+    desc: "A simple game of rolling dice between to players",
+    skills: ["HTML", "CSS", "JavaScript"],
+    img: dice,
+    github: "https://github.com/MahmoudAidia/Roll_Dice",
+    demo: "https://66bc6a21be029a5a47bee5f3--startling-faun-707d44.netlify.app/",
+  },
+  {
+    title: "Guess Number Game",
+    desc: "A simple game of guessing a certain number",
+    skills: ["HTML", "CSS", "JavaScript"],
+    img: guess,
+    github: "https://github.com/MahmoudAidia/GuessNumber",
+    demo: "https://66bc6bc3b2c61f4b7b0d0432--coruscating-centaur-3fe5aa.netlify.app/",
+  },
+  {
+    title: "Custom Video Player",
+    desc: "A simple video player app.",
+    skills: ["HTML", "CSS", "JavaScript"],
+    img: player,
+    github: "https://github.com/MahmoudAidia/Video_Player",
+    demo: null,
+  },
+  {
+    title: "Currency Exchanger app",
+    desc: "A simple currency exchanger application",
+    skills: ["HTML", "CSS", "JavaScript", "API"],
+    img: currency,
+    github: "https://github.com/MahmoudAidia/Currency_Exchanger",
+    demo: "https://currencyconverteraidia.netlify.app/",
   },
 ];
