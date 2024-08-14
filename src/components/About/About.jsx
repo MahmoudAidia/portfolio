@@ -2,12 +2,12 @@ import Line from "../../UI/Line";
 
 import personal from "/public/img/me-3.png";
 import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
-
+import { motion } from "framer-motion";
 import "./About.scss";
 
 function About() {
   return (
-    <section className="about" id="about-sec">
+    <motion.section className="about" id="about-sec">
       <div className="heading">
         <h2>Simplicity is the soul of efficiency.</h2>
         <Line />
@@ -71,7 +71,7 @@ function About() {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 

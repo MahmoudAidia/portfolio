@@ -1,8 +1,8 @@
 header {
   z-index: 20;
   position: relative;
-  // color: #fff;
 
+  overflow: hidden;
   .header {
     background-color: hsla(192, 22%, 9%, 0.435);
     backdrop-filter: blur(15px);

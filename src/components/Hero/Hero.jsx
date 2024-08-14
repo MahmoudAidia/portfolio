@@ -7,27 +7,60 @@ import { motion } from "framer-motion";
 import "./Hero.scss";
 function Hero() {
   return (
-    <section className="hero" id="hero-sec">
+    <motion.section
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 1, duration: 1 }}
+      className="hero"
+      id="hero-sec"
+    >
       <div className="left-img">
         <CodeOffIcon className="icon" />
       </div>
 
       <div className="hero-bg">
-        <h1>It's Mahmoud Aidia</h1>
-        <h2>
+        <motion.h1
+          initial={{ y: 40, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1, delay: 1 }}
+        >
+          It's Mahmoud Aidia
+        </motion.h1>
+        <motion.h2
+          initial={{ y: 30, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1, delay: 1.2 }}
+        >
           A <span>Front-end</span> Developer
-        </h2>
-        <p>
+        </motion.h2>
+        <motion.p
+          initial={{ y: 30, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1, delay: 1.5 }}
+        >
           Passionate and detail-oriented frontend developer with a knack for
           creating visually appealing and user-friendly web interfaces
-        </p>
-        <h3>Where creativity meets functionality.</h3>
-        <a href="#contacts-sec">Contact Me &rarr;</a>
+        </motion.p>
+        <motion.h3
+          initial={{ y: 30, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1, delay: 1.8 }}
+        >
+          Where creativity meets functionality.
+        </motion.h3>
+        <motion.a
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 2 }}
+          href="#contacts-sec"
+        >
+          Contact Me &rarr;
+        </motion.a>
       </div>
 
-      <div className="right-img">
+      <motion.div className="right-img">
         <BugReportIcon className="icon" />
-      </div>
+      </motion.div>
 
       <motion.a
         href="#about-sec"
@@ -42,7 +75,7 @@ function Hero() {
         <MouseIcon />
         <ArrowDownwardIcon />
       </motion.a>
-    </section>
+    </motion.section>
   );
 }
 

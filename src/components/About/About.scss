@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20px;
     padding-bottom: 120px;
     h2 {
       text-align: center;
@@ -53,6 +54,7 @@
       }
 
       .education {
+        margin-bottom: 30px;
         h2 {
           font-size: 20px;
           color: hsl(var(--accent-color));
