@@ -116,7 +116,7 @@ export const projectsList = [
     skills: ["HTML", "CSS", "JavaScript"],
     img: player,
     github: "https://github.com/MahmoudAidia/Video_Player",
-    demo: null,
+    demo: "https://video-player-iota-sepia.vercel.app/",
   },
   {
     title: "Currency Exchanger app",
