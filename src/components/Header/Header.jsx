@@ -69,6 +69,7 @@ function Header() {
             animate={{ x: [150, -10, 0] }}
             transition={{ delay: 1 }}
             href="https://flowcv.com/resume/1ckq8dt4wg"
+            target="_blank"
             download="Mahmoud-Mostafa-Aidia.pdf"
           >
             Resume
