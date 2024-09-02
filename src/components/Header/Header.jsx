@@ -68,7 +68,7 @@ function Header() {
             initial={{ x: 150 }}
             animate={{ x: [150, -10, 0] }}
             transition={{ delay: 1 }}
-            href="/src/file/Mahmoud-Mostafa-Aidia.pdf"
+            href="/temp/Mahmoud-Mostafa-Aidia.pdf"
             download="Mahmoud-Mostafa-Aidia.pdf"
           >
             Resume
