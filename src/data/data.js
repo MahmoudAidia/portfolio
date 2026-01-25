@@ -24,7 +24,7 @@ export const projectsList = [
       "Framer Motion",
     ],
     img: wildOasis,
-    demo: "https://wild-oasis-react-app-three.vercel.app/login",
+    demo: null,
     github: "https://github.com/MahmoudAidia/wild-oasis-react-app",
   },
   {

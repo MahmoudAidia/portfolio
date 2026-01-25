@@ -45,10 +45,10 @@ function About() {
           <div className="statistics">
             <div className="stats-item">
               <div className="nums">
-                <span>1.5</span>
+                <span>1</span>
                 <span>+</span>
               </div>
-              <p>Experiences</p>
+              <p>Year of Experience</p>
             </div>
             <div className="stats-item">
               <div className="nums">
@@ -59,10 +59,10 @@ function About() {
             </div>
             <div className="stats-item">
               <div className="nums">
-                <span>250</span>
+                <span>310</span>
                 <span>+</span>
               </div>
-              <p>Leetcode</p>
+              <p>Leetcode Problems</p>
             </div>
           </div>
         </div>

@@ -68,11 +68,11 @@ function Header() {
             initial={{ x: 150 }}
             animate={{ x: [150, -10, 0] }}
             transition={{ delay: 1 }}
-            href="https://flowcv.com/resume/1ckq8dt4wg"
+            href="/public/Mahmoud Mostafa.pdf"
             target="_blank"
             download="Mahmoud-Mostafa-Aidia.pdf"
           >
-            Resume
+            Download CV{" "}
           </motion.a>
           {/*
            <div className="icons">

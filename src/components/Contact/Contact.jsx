@@ -14,18 +14,14 @@ function Contact() {
 
       <div className="social">
         <a
-          href="https://www.linkedin.com/in/mahmoud-aidia-605298224/"
+          href="https://www.linkedin.com/in/mahmoud-m-aidia-605298224/"
           className="item"
           target="_blank"
         >
           <span>LinkedIn</span>
           <LinkedInIcon />
         </a>{" "}
-        <a
-          href="https://x.com/MahmoudAid50353"
-          className="item"
-          target="_blank"
-        >
+        <a href="https://x.com/MahmoudAidia11" className="item" target="_blank">
           <span>Twitter</span>
           <TwitterIcon />
         </a>{" "}
@@ -36,6 +32,10 @@ function Contact() {
         >
           <span>GitHub</span>
           <GitHubIcon />
+        </a>
+        <a href="mahmoudaidia.dev@gmail.com" className="item" target="_blank">
+          <span>Email</span>
+          <EmailIcon />
         </a>
       </div>
 
