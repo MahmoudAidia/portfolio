@@ -70,7 +70,7 @@ function Header() {
             transition={{ delay: 1 }}
             href="/public/MAHMOUD MOSTAFA-1.pdf"
             target="_blank"
-            // download="Mahmoud-Mostafa-Aidia.pdf"
+            download="MAHMOUD MOSTAFA-1.pdf"
           >
             Download CV{" "}
           </motion.a>
