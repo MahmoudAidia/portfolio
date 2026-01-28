@@ -68,9 +68,9 @@ function Header() {
             initial={{ x: 150 }}
             animate={{ x: [150, -10, 0] }}
             transition={{ delay: 1 }}
-            href="/public/MAHMOUD MOSTAFA-1.pdf"
+            href="/public/MAHMOUD-MOSTAFA-1.pdf"
             target="_blank"
-            download="MAHMOUD MOSTAFA-1.pdf"
+            download="MAHMOUD-MOSTAFA-1.pdf"
           >
             Download CV{" "}
           </motion.a>
