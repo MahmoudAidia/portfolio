@@ -9,22 +9,39 @@ import dice from "/public/img/Dice.png";
 import guess from "/public/img/guess.png";
 import player from "/public/img/player.png";
 import currency from "/public/img/currency.png";
+import trackly from "/public/img/trackly.png";
 
 export const projectsList = [
   {
-    title: "Admin Dashboard",
-    desc: "An admin dashboard, a SPA with a complete backend using Supabase to manage hotel check-in and checkout.",
+    title: "Trackly",
+    desc: "Smart Expense Tracker to manage your expenses, budgets and view your anayltics.",
     skills: [
       "React",
       "React Router-Dom",
       "React Query",
-      "React hot toast",
-      "Styled-components",
-      "React hook forms",
+      "React Hot Toast",
+      "Sass",
+      "FireBase",
+    ],
+    img: trackly,
+    demo: "https://trackly-lac.vercel.app/",
+    github: "https://github.com/MahmoudAidia/Trackly",
+  },
+  {
+    title: "Hotel Admin Dashboard",
+    desc: "An admin dashboard, a SPA with a complete backend using Supabase to manage hotel check-in, checkout and reservations.",
+    skills: [
+      "React",
+      "React Router-Dom",
+      "React Query",
+      "React Hot Toast",
+      "Styled-Components",
+      "React Hook Forms",
+      "Supabase",
       "Framer Motion",
     ],
     img: wildOasis,
-    demo: null,
+    demo: "https://wild-oasis-react-app-three.vercel.app/",
     github: "https://github.com/MahmoudAidia/wild-oasis-react-app",
   },
   {

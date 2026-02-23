@@ -68,21 +68,11 @@ function Header() {
             initial={{ x: 150 }}
             animate={{ x: [150, -10, 0] }}
             transition={{ delay: 1 }}
-            href="/MAHMOUD-MOSTAFA-1.pdf"
+            href="https://flowcv.com/resume/9gvae803bheq"
             target="_blank"
-            download="MAHMOUD-MOSTAFA-1.pdf"
           >
-            Download CV{" "}
+            Download CV
           </motion.a>
-          {/*
-           <div className="icons">
-            {mode === 2 ? (
-              <LightModeIcon onClick={() => setMode(1)} />
-            ) : (
-              <ModeNightIcon onClick={() => setMode(2)} />
-            )}
-          </div>
-          */}
 
           <motion.div
             initial={{ x: 150 }}
