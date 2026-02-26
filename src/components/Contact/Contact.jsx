@@ -33,7 +33,11 @@ function Contact() {
           <span>GitHub</span>
           <GitHubIcon />
         </a>
-        <a href="mahmoudaidia.dev@gmail.com" className="item" target="_blank">
+        <a
+          href="mailto:mahmoudaidia.dev@gmail.com"
+          className="item"
+          target="_blank"
+        >
           <span>Email</span>
           <EmailIcon />
         </a>
